@@ -1,0 +1,43 @@
+
+div {
+	width: 90px;
+	height: 40px;
+	margin-bottom: 10px;
+	background: white;
+	border: 5px solid black;
+	position: relative;
+}
+.one:before {
+	content: '';
+	position: absolute;
+	background: red;
+	width: 33%;
+	height: 100%;
+	
+}
+.two:before {
+	content: '';
+	display: inline-block;
+	background: yellow;
+	width: 66%;
+	height: 100%;
+	position: absolute;
+}
+.three:before {
+	content: '';
+	display:inline-block ;
+	background: green;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+div:after {
+	content: '';
+	position: absolute;
+	background: black;
+	width: 10px;
+	height: 20px;
+	margin-left: 90px;
+	margin-top: 10px;
+	
+}
