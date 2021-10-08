@@ -124,15 +124,18 @@ padding-right: 25px;
 .menu a:hover {
 	background: #3143a8;
 }
-.pdr_text_1_tasks {
+.pdr_text_1_tasks li {
+	margin-left: 17px;
+}
+.pdr_text_1_tasks ul {
+	padding: 0px;
 	margin: 0px;
-	padding; 0px;
-	color:black;
-	text-decoration: none;
-	
 }
 .pdr_text_1_tasks a {
-	color:black;
 	text-decoration: none;
-	
+	color: black;
+}
+.pdr_text_1_tasks {
+	font-size:22px;
+	font-weight: bold;
 }
