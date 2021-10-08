@@ -125,6 +125,7 @@ a:hover {
 	background: #3143a8;
 }
 .pdr_text_1_tasks {
-	color:white;
+	color:black;
+	text-decoration: none;
 	
 }
