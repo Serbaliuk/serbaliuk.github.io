@@ -117,11 +117,11 @@ padding-right: 25px;
 	margin: 10px;
 	padding: 5px;
 }
-a {
+.menu a {
 	text-decoration: none;
 	color: white;
 }
-a:hover {
+.menu a:hover {
 	background: #3143a8;
 }
 .pdr_text_1_tasks div {
