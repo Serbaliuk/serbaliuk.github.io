@@ -1,0 +1,137 @@
+body {
+	background: black;
+	font-size: 18px;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+}
+.wrap {
+	width: 760px;
+	height: 1780px;
+	box-sizing: border-box;
+	background: grey;
+	margin: 0 auto;
+}
+.letter {
+	width: 640px;
+	display: inline-block;
+	margin: 58px;
+}
+.gif {
+	width: 640px;
+	height: 150px;
+}
+.main {
+	background: white;
+	margin-top: -20px;
+	padding: 50px 50px 30px 50px;	
+}
+.text_1 p:first-child {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.field_2 {
+	float: left;
+	margin-bottom: 25px;
+}
+.field_2:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+.wrapped_item_2 {
+	width: calc((100% - 20px * 1) / 2);
+	float: left;
+	margin-right: 20px;
+}
+.wrapped_item_2:last-child {
+	margin-right: 0;
+}
+.photo_2 {
+	width: 100%;
+}
+.price_comm_2 {
+	min-height: 20px;
+}
+.price_comm_3 {
+	min-height: 140px;
+}
+.order {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 40px;
+	background: #d65854;
+	border-radius: 10px;
+	font-weight: bold;
+	color: white;
+	text-decoration: none;	
+}
+.order:hover {
+	background: #56bdf5;
+}
+.order:active {
+	background: #56bdf5;
+}
+.photo_3 {
+	width: 100%;
+}
+.field_3 {
+	float: left;
+	margin-bottom: 25px;
+}
+.field_3:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+.wrapped_item_3 {
+	float: left;
+	width: calc((100% - 15px * 2) / 3);
+	margin-right: 15px;
+}
+.wrapped_item_3:last-child {
+	margin-right: 0px;
+}
+
+.like {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 40px;
+	background: #d65854;
+	border-radius: 10px;
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+	margin-top: 50px;
+}
+.like:hover {
+	background: #56bdf5;
+}
+.like:active {
+	background: #56bdf5;
+}
+.text_2 p:last-child {
+	font-style: oblique;
+}
+.warning {
+	color: white;
+	font-size: 14px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.unsub {
+	font-size: 14px;
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+}
+.unsub {
+	color: white;
+}
+.bold {
+	font-weight: bold;
+}
