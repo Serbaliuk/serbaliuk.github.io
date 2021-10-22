@@ -7,7 +7,7 @@ body {
 	font-family: "Open sans";
 }
 header {
-	background-image: url("/11_/img/bg-01.jpg");
+	background-image: url("img/bg-01.jpg");
 	background-position: -0px -210px;
 	background-size: 100%;
 	height: 435px;
@@ -107,19 +107,19 @@ h2 {
 	font-size: 14px;
 }
 .madrid {
-	background-image: url("/img/tour/madrid.jpg");
+	background-image: url("img/tour/madrid.jpg");
 	background-size: 100%;
 }
 .turin {
-	background-image: url("/img/tour/turin.jpg");
+	background-image: url("img/tour/turin.jpg");
 	background-size: 100%;
 }
 .hamburg {
-	background-image: url("/img/tour/hamburg.jpg");
+	background-image: url("img/tour/hamburg.jpg");
 	background-size: 100%;
 }
 .krakow {
-	background-image: url("/img/tour/krakow.jpg");
+	background-image: url("img/tour/krakow.jpg");
 	background-size: 100%;
 }
 #gallery {
@@ -157,7 +157,7 @@ a {
 	
 }
 #subscribe {
-	background-image: url("/img/bg-02.jpg");
+	background-image: url("img/bg-02.jpg");
 	background-size: 100%;
 	background-position: 0px -320px;
 	height: 290px;	
