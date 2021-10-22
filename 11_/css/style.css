@@ -1,0 +1,202 @@
+
+body {
+	width: 1270px;
+	background: ;
+	margin: 0 auto;
+	color: white;
+	font-family: "Open sans";
+}
+header {
+	background-image: url("D:/sublime/11_/img/bg-01.jpg");
+	background-position: -0px -210px;
+	background-size: 100%;
+	height: 435px;
+	position: relative;
+}
+h1 {
+	font-size: 90px;
+	font-family: "Metal Mania";
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 120px;
+}
+header div .button {
+	padding: 15px 40px 15px 40px;
+	display: block;
+	background:linear-gradient(135deg, #bf120f, #f06e82);
+	position: absolute;
+	left: calc(50% - 120px);
+	top: 65%;
+	text-transform: uppercase;
+	
+}
+.menu {
+	overflow: hidden;
+	background: rgba(0, 0, 0, 0.3);
+	position: fixed;
+	width: 1270px;
+}
+.menu li {
+	float: left;
+	font-size: 20px;
+	color: white;
+	padding: 20px;
+	display: block;
+	margin-right: 20px;	
+}
+.menu li:hover {
+	background: #bf120f;
+}
+.menu li:active {
+	background: black;
+	color: white;
+}
+nav {
+	clear: both;
+}
+
+h2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 35px;
+	padding: 30px 0px 30px 0px;
+}
+#tour {
+	background: #4a4e54;
+	box-sizing: border-box;
+	height: 330px;	
+}
+#tour .container {
+	width: 900px;
+	margin: 0 auto;
+}
+.tour-card  {
+	box-sizing: border-box;
+	float: left;
+	width: calc((100% - 50px * 1) / 4);
+	height: 220px;
+	margin-right: 15px;
+	padding: 30px 15px 0px 15px;
+}
+.tour-card:last-child {
+	margin-right: 0px;
+}
+.tour-card .button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 20px 10px 10px 10px;
+	padding:10px 10px 10px 10px;
+	text-transform: uppercase;
+	background:linear-gradient(135deg, #bf120f, #f06e82);
+}
+.tour-town {
+	text-transform: uppercase;
+	padding-bottom: 10px;
+
+}
+.tour-place {
+	padding-bottom: 10px;
+	font-size: 14px;
+}
+.tour-date {
+	padding-bottom: 20px;
+	font-style: italic;
+	font-size: 14px;
+}
+.madrid {
+	background-image: url("D:/sublime/11_/img/tour/madrid.jpg");
+	background-size: 100%;
+}
+.turin {
+	background-image: url("D:/sublime/11_/img/tour/turin.jpg");
+	background-size: 100%;
+}
+.hamburg {
+	background-image: url("D:/sublime/11_/img/tour/hamburg.jpg");
+	background-size: 100%;
+}
+.krakow {
+	background-image: url("D:/sublime/11_/img/tour/krakow.jpg");
+	background-size: 100%;
+}
+#gallery {
+	height: 740px;
+	background: #4a4e54;
+}
+#gallery .container {
+	box-sizing: border-box;
+	width: 920px;
+	margin: 0 auto;
+	clear: both;
+}
+.photo {
+	box-sizing: border-box;
+	float: left;
+	width: calc(300px - 0px);
+	margin-left: 10px;
+	margin-bottom: 8px;
+	
+}
+.photo:nth-child(2) {
+	margin-left: 0;
+}
+.photo:nth-child(5) {
+	margin-left: 0;
+}
+}
+.photo img {
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+	color: white;
+	
+	
+}
+#subscribe {
+	background-image: url("D:/sublime/11_/img/bg-02.jpg");
+	background-size: 100%;
+	background-position: 0px -320px;
+	height: 290px;	
+}
+.pitch p {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.subscribe-form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px;
+}
+input {
+	padding: 6px 10px;
+	box-sizing: border-box;
+}
+.button {
+	background: red;
+}
+form button {
+	text-transform: uppercase;
+	color: white;
+	background:linear-gradient(135deg, #bf120f, #f06e82);
+	padding: 10px 15px 10px 15px;
+	border: none;
+	margin-left: 5px;
+	font-size: 16px;
+
+}
+footer {
+	background: #4a4e54;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.copyright {
+	margin-top: 10px;
+}
