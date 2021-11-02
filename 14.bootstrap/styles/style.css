@@ -23,7 +23,7 @@ html,h1,h2,h3,h4,h5,h6,a{
 	background:#fff !important;
 }
 .header{
-	background-image: url("E:/projectfront-end/another proj/14.bootstrap/photos/work.jpg");
+	background-image: url("/14.bootstrap/photos/work.jpg");
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: center;
